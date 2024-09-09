@@ -640,9 +640,6 @@ def apply_datatype_change():
         text_widget.delete(1.0, tk.END)
         text_widget.insert(tk.END, f"Error: {e}")
         text_widget.config(state=tk.DISABLED)
-import os
-from tkinter import filedialog
-
 def export_option():
     global dataframe
     try:
