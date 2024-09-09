@@ -7,6 +7,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder , LabelEncoder, StandardScaler, MinMaxScaler
 import io
+import os
 
 dataframe = ""
 file_path = ""
